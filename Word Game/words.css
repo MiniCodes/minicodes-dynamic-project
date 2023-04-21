@@ -1,0 +1,75 @@
+/* container for nav bar */
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Nav bar color */
+header{
+    background: #d4d7c4;
+    border-radius: 9px;
+}
+
+/* float fix for nav bar */
+.fixfloat ::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* floats navigation to the right */
+nav{
+    float: right;
+}
+
+/* Styles nav ul */
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Positions nav li */
+nav li{
+    display: inline-block;
+    margin-left: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    position: relative;
+}
+
+/* styles nav links */
+nav a{
+    color: #868f74;
+    text-decoration: none;
+    font-family: 'Handlee', cursive;
+    /*text-transform: uppercase;*/
+    font-weight: 600;
+    font-size: 17px;
+}
+
+/* Gives nav links darker color when hovering over */
+nav a:hover{
+    color: #79816a;
+}
+
+/* Styles bar animation over nav links */
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #868f74;
+
+    position: absolute;
+    top: 0;
+    width: 0;
+
+    transition: all ease-in-out 250ms;
+}
+
+/* Shows bar animation when hovering over nav links*/
+nav a:hover::before{
+    width: 100%;
+}
