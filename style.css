@@ -152,3 +152,41 @@ nav a:hover::before{
     }
 */
 
+
+
+head{
+    background: #f6f9fa;
+}
+
+body{
+    background: #f6f9fa;
+}
+
+/* Styles headers 1 */
+h1 {
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    font-size: 46px;
+    color: #8496a2;
+}
+
+/* Styles headers 3 */
+h3 {
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Styles paragraphs in general */
+p {
+    font-family: 'Handlee', cursive;
+    text-align: center;
+    font-size: 18px;
+    color: #687a86;
+}
+
+
+/* Aligns Number Game content in the center */
+.Randopara-buttons {
+    text-align: center;
+}
