@@ -106,3 +106,18 @@ p {
     font-size: 18px;
     color: #687a86;
 }
+
+/* Styles all buttons */
+button {
+    font-family: 'Handlee', cursive;
+    font-weight: 600;
+    font-style: italic;
+    color: #8496a2;
+}
+
+/* Styles all Inputs */
+input {
+    font-family: 'Handlee', cursive;
+    font-size: 14px;
+    color: #79816a;
+}
