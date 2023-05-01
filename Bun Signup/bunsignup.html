@@ -41,5 +41,91 @@
         </header>
 
         <h1>Signup!</h1>
+
+        <br>
+
+        <div>
+            <div class="bun-para">
+                <p>
+                    Hello and welcome to the bunny daycare sign-up sheet!
+                    <br><br> We offer may activities for the bunnies through our program as
+                    they play with each other or own their own. <br> Some activities are reserved
+                    for certain seasonal programs. 
+                    <br><br> We offer shallow pools & cool ice cubes during
+                    our summer program, a bunny snow burrow activity during the winter, <br> & a "bunnies
+                    in Nature" tour & activity where the Buns bring home flower art they made
+                    from flowers gathered along their tour walk path.
+                    <br><br> Sign-up now to be placed in your season's program!
+                </p>
+            </div>
+
+            <br><br><br>
+
+            <h3>Sign-up Form!</h3>
+
+            <div class="bun-info">
+               <form action="signup.php" method="post">
+                    <label>Guardian's First Name:</label>
+                    <input type="text" name="guardianName" id="guardianName">
+
+                    <br><br>
+
+                    <label>Guardian's Email:</label>
+                    <input type="email" name="email" id="email">
+
+                    <br><br>
+
+                    <label>Bun-bun's Name:</label>
+                    <input type="text">
+
+                    <br>
+
+                    <p>Bun-bun's Gender:</p>
+                    <input type="radio" id="mBun">
+                    <label for="mBun">Male</label>
+
+                    <input type="radio" id="fBun">
+                    <label for="fbun">Female</label>
+
+                    <br><br>
+
+                    <p>What is your perfered program?</p>
+                    <input type="radio" id="springP">
+                    <label for="springP">Spring</label>
+
+                    <input type="radio" id="summerP">
+                    <label for="summerP">Summer</label>
+
+                    <input type="radio" id="winterP">
+                    <label for="winterP">Winter</label>
+
+                    <br><br>
+
+                    <p>Does your Bun have any allergies?</p>
+                    <input type="radio" id="yes-allergies">
+                    <label for="yes-allergies">Yes</label>
+
+                    <input type="radio" id="no-allergies">
+                    <label for="no-allergies">No</label>
+
+                    <br><br>
+
+                    <label>If yes, list the allergies:</label>
+                    <input type="text">
+
+                    <br><br>
+
+                    <label for="comments-and-questions">Comments or Questions?</label>
+                    <br>
+                    <textarea name="message" id="comments-and-questions"></textarea>
+
+                    <br><br>
+
+                    <input type="submit" name="submit" class="submit-btn">
+               </form>
+            </div>
+        </div>
+
+        
     </body>
 </html>

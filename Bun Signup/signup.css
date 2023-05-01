@@ -95,8 +95,9 @@ h1 {
 /* Styles headers 3 */
 h3 {
     font-family: 'Marck Script', cursive;
-    font-size: 24px;
+    font-size: 26px;
     text-align: center;
+    color: #8496a2e8;
 }
 
 /* Styles paragraphs in general */
@@ -118,6 +119,33 @@ button {
 /* Styles all Inputs */
 input {
     font-family: 'Handlee', cursive;
-    font-size: 14px;
+    font-size: 15px;
+    color: #79816a;
+}
+
+
+
+.bun-info {
+    text-align: center;
+    font-family: 'Handlee', cursive;
+}
+
+.bun-info label {
+    color: #5c6d79de;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.bun-info .submit-btn {
+    font-family: 'Handlee', cursive;
+    font-weight: 600;
+    font-style: italic;
+    color: #8496a2;
+}
+
+.bun-info textarea {
+    font-family: 'Handlee', cursive;
+    font-size: 15px;
     color: #79816a;
 }
