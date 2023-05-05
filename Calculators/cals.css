@@ -141,7 +141,7 @@ input {
     font-size: 18px;
 }
 
-/* Places the calculator to the right */
+/* Places the scientific calculator to the right */
 .scical-rows {
     grid-column-start: 2;
 
@@ -151,8 +151,10 @@ input {
 
     background: #dde0cc;
     border-radius: 16px;
+    padding: 8px;
 }
 
+/* Styles the inputs for the scientific calculator buttons */
 .scical-rows input {
     background: #b3c1b7da;
     border: 1px solid #fffdf6;
@@ -160,48 +162,56 @@ input {
     color: #6c745f;
 }
 
-
+/* Creates grid for row 1 of sci. calculator*/
 .scical-row1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 3px;
 }
 
+/* Styles input to span 1 through 4 of the 
+5 spaces in the grid */
 .scical-row1 #sciCalResults {
     grid-column-start: 1;
     grid-column-end: 5;
 }
 
+/* Creates grid for row 2 of sci. calculator*/
 .scical-row2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 3px;
 }
 
+/* Creates grid for row 3 of sci. calculator*/
 .scical-row3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 3px;
 }
 
+/* Creates grid for row 4 of sci. calculator*/
 .scical-row4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 3px;
 }
 
+/* Creates grid for row 5 of sci. calculator*/
 .scical-row5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 3px;
 }
 
+/* Creates grid for row 6 of sci. calculator*/
 .scical-row6 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 3px;
 }
 
+/* Creates grid for row 7 of sci. calculator*/
 .scical-row7 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -223,7 +233,7 @@ input {
     font-size: 16px;
 }
 
-/* Creates the rows/row spacing for the button 
+/* Creates the rows/row spacing for the simple 
 calculator */
 .calrows {
     width: 85%;
@@ -233,8 +243,10 @@ calculator */
 
     background-color: #e2d4e0;
     border-radius: 16px;
+    padding: 8px;
 }
 
+/* Styles the inputs for the simple calculator buttons */
 .calrows input{
     background: #949ab1c4;
     border: 1px solid #fffdf6;
@@ -242,7 +254,7 @@ calculator */
     color: #4c5372;
 }
 
-/* Creates grid for row 1 of button 
+/* Creates grid for row 1 of simple 
 calculator */
 .calrow1 {
     display: grid;
@@ -257,7 +269,7 @@ calculator */
     grid-column-end: span 3;
 }
 
-/* Creates grid for row 2 of button
+/* Creates grid for row 2 of simple
 calculator */
 .calrow2 {
     display: grid;
@@ -265,7 +277,7 @@ calculator */
     column-gap: 3px;
 }
 
-/* Creates grid for row 3 of button
+/* Creates grid for row 3 of simple
 calculator */
 .calrow3 {
     display: grid;
@@ -273,7 +285,7 @@ calculator */
     column-gap: 3px;
 }
 
-/* Creates grid for row 4 of button
+/* Creates grid for row 4 of simple
 calculator */
 .calrow4 {
     display: grid;
@@ -281,7 +293,7 @@ calculator */
     column-gap: 3px;
 }
 
-/* Creates grid for row 5 of button
+/* Creates grid for row 5 of simple
 calculator */
 .calrow5 {
     display: grid;
