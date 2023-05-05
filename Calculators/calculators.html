@@ -41,5 +41,152 @@
         </header>
 
         <h1>Calculators!</h1>
+
+        <div class="calculator-content">
+            <div class="sci-cal">
+                <div class="scical-rows">
+                    <div class="scical-row1">
+                        <input type="text" id="sciCalResults">
+
+                        <input type="button" value="c" onclick="sciCalResults.value = ''">
+                    </div>
+
+                    
+                    <div class="scical-row2">
+                        <input type="button" value="&pi;" onclick="pi()">
+
+                        <input type="button" value="Sin" onclick="sin()">
+
+                        <input type="button" value="Cos" onclick="cos()">
+
+                        <input type="button" value="Tan" onclick="tan()">
+
+                        <input type="button" value="Del" onclick="backspace()">
+                    </div>
+
+
+                    <div class="scical-row3">
+                        <input type="button" value="&Sqrt;" onclick="sqrt()">
+
+                        <input type="button" value="n!" onclick="fact()">
+
+                        <input type="button" value="x&sup2;" onclick="squared()">
+
+                        <input type="button" value="E&#x02E3;" onclick="exponent()">
+
+                        <input type="button" value="|x|" onclick="absolute()">
+                    </div>
+
+
+                    <div class="scical-row4">
+                        <input type="button" value="Log" onclick="log()">
+
+                        <input type="button" value="1" onclick="sciDisplay('1')">
+
+                        <input type="button" value="2" onclick="sciDisplay('2')">
+
+                        <input type="button" value="3" onclick="sciDisplay('3')">
+
+                        <input type="button" value="+" onclick="sciDisplay('+')">
+                    </div>
+
+
+                    <div class="scical-row5">
+                        <input type="button" value="10&#x02E3;" onclick="tenPowers()">
+
+                        <input type="button" value="4" onclick="sciDisplay('4')">
+
+                        <input type="button" value="5" onclick="sciDisplay('5')">
+
+                        <input type="button" value="6" onclick="sciDisplay('6')">
+
+                        <input type="button" value="-" onclick="sciDisplay('-')">
+                    </div>
+
+                    
+                    <div class="scical-row6">
+                        <input type="button" value="log&#8322;" onclick="logBase2()">
+
+                        <input type="button" value="7" onclick="sciDisplay('7')">
+
+                        <input type="button" value="8" onclick="sciDisplay('8')">
+
+                        <input type="button" value="9" onclick="sciDisplay('9')">
+
+                        <input type="button" value="/" onclick="sciDisplay('/')">
+                    </div>
+
+                    
+                    <div class="scical-row7">
+                        <input type="button" value="log&#8321;&#8320;" onclick="logBase10()">
+
+                        <input type="button" value="." onclick="sciDisplay('.')">
+
+                        <input type="button" value="0" onclick="sciDisplay('0')">
+
+                        <input type="button" value="=" onclick="sciSolve()">
+
+                        <input type="button" value="*" onclick="sciDisplay('*')">
+                    </div>
+                </div>
+            
+            </div>
+
+            <div></div>
+            
+            <div class="simple-cal">
+                <div class="calrows">
+                    <div class="calrow1">
+                        <input type="text" id="calResults">
+
+                        <input type="button" value="c" onclick="calResults.value = ''">
+                    </div>
+
+                    <div class="calrow2">
+                        <input type="button" value="1" onclick="display('1')">
+
+                        <input type="button" value="2" onclick="display('2')">
+
+                        <input type="button" value="3" onclick="display('3')">
+
+                        <input type="button" value="+" onclick="display('+')">
+                    </div>
+                    
+                    <div class="calrow3">
+                        <input type="button" value="4" onclick="display('4')">
+
+                        <input type="button" value="5" onclick="display('5')">
+
+                        <input type="button" value="6" onclick="display('6')">
+
+                        <input type="button" value="-" onclick="display('-')">
+                    </div>
+
+                    <div class="calrow4">
+                        <input type="button" value="7" onclick="display('7')">
+                        
+                        <input type="button" value="8" onclick="display('8')">
+
+                        <input type="button" value="9" onclick="display('9')">
+
+                        <input type="button" value="/" onclick="display('/')">
+                    </div>
+
+                    <div class="calrow5">
+                        <input type="button" value="." onclick="display('.')">
+
+                        <input type="button" value="0" onclick="display('0')">
+
+                        <input type="button" value="=" onclick="solve()">
+
+                        <input type="button" value="*" onclick="display('*')">
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+
+        <script src="cal.js"></script>
     </body>
 </html>

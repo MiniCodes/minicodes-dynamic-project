@@ -121,3 +121,170 @@ input {
     font-size: 14px;
     color: #79816a;
 }
+
+
+
+/* Places content for Calculators page */
+.calculator-content {
+    display: grid;
+    grid-template-columns: 1fr .5fr 1fr;
+    column-gap: 5px;
+}
+
+
+/* Styles the Scientific Calculator */
+.sci-cal {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    font-size: 18px;
+}
+
+/* Places the calculator to the right */
+.scical-rows {
+    grid-column-start: 2;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 3px;
+
+    background: #dde0cc;
+    border-radius: 16px;
+}
+
+.scical-rows input {
+    background: #b3c1b7da;
+    border: 1px solid #fffdf6;
+    border-radius: 16px;
+    color: #6c745f;
+}
+
+
+.scical-row1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+.scical-row1 #sciCalResults {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.scical-row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+.scical-row3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+.scical-row4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+.scical-row5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+.scical-row6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+.scical-row7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+
+
+/* Styles the simple calculator*/
+.simple-cal {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+}
+
+/* Sizes the text next to the simple calculator */
+.simple-cal p {
+    font-size: 16px;
+}
+
+/* Creates the rows/row spacing for the button 
+calculator */
+.calrows {
+    width: 85%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 3px;
+
+    background-color: #e2d4e0;
+    border-radius: 16px;
+}
+
+.calrows input{
+    background: #949ab1c4;
+    border: 1px solid #fffdf6;
+    border-radius: 16px;
+    color: #4c5372;
+}
+
+/* Creates grid for row 1 of button 
+calculator */
+.calrow1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+/* Styles input to span 1 through 3 of the 
+4 spaces in the grid */
+.calrow1 input[type=text] {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+}
+
+/* Creates grid for row 2 of button
+calculator */
+.calrow2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+/* Creates grid for row 3 of button
+calculator */
+.calrow3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+/* Creates grid for row 4 of button
+calculator */
+.calrow4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+/* Creates grid for row 5 of button
+calculator */
+.calrow5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
