@@ -76,10 +76,12 @@ nav a:hover::before{
 
 
 
+/* Styles head of website */
 head{
     background: #f6f9fa;
 }
 
+/* Styles body of website */
 body{
     background: #f6f9fa;
 }
@@ -124,12 +126,13 @@ input {
 }
 
 
-
+/* Places & Styles the text of the sign-up form */
 .bun-info {
     text-align: center;
     font-family: 'Handlee', cursive;
 }
 
+/* Styles all of the form's labels */
 .bun-info label {
     color: #5c6d79de;
     font-style: italic;
@@ -137,6 +140,7 @@ input {
     font-size: 16px;
 }
 
+/* Styles the Submit Button for the form */
 .bun-info .submit-btn {
     font-family: 'Handlee', cursive;
     font-weight: 600;
@@ -144,6 +148,8 @@ input {
     color: #8496a2;
 }
 
+/* Styles the "Comments or Questions?" textarea 
+or message area */
 .bun-info textarea {
     font-family: 'Handlee', cursive;
     font-size: 15px;

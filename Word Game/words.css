@@ -76,10 +76,12 @@ nav a:hover::before{
 
 
 
+/* Styles head of website */
 head{
     background: #f6f9fa;
 }
 
+/* Styles body of website */
 body{
     background: #f6f9fa;
 }
