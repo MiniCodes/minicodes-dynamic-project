@@ -7,6 +7,7 @@
 /* Nav bar color */
 header{
     background: #d4d7c4;
+    /* background: #d4d7c4; */
     border-radius: 9px;
 }
 
@@ -42,6 +43,7 @@ nav li{
 /* styles nav links */
 nav a{
     color: #868f74;
+    /* color: #868f74; */
     text-decoration: none;
     font-family: 'Handlee', cursive;
     /*text-transform: uppercase;*/
@@ -92,6 +94,8 @@ h1 {
     text-align: center;
     font-size: 46px;
     color: #8496a2;
+    
+    /* color: #8496a2; */
 }
 
 /* Styles headers 3 */
@@ -107,6 +111,7 @@ p {
     text-align: center;
     font-size: 18px;
     color: #687a86;
+    /* color: #687a86; */
 }
 
 /* Styles all buttons */
@@ -115,6 +120,7 @@ button {
     font-weight: 600;
     font-style: italic;
     color: #8496a2;
+    /* color: #8496a2; */
 }
 
 /* Centers button */
