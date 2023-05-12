@@ -40,8 +40,13 @@ function changeColor() {
 
     // Creates a constant for the Navigation background
     const navHead = document.getElementById('navHeader');
-    // Creates a constant for all navigation links
-    const navLinks = document.getElementById('navA');
+    // Creates constants for all the navigation links
+    const navLink1 = document.getElementById('navA');
+    const navLink2 = document.getElementById('navAB');
+    const navLink3 = document.getElementById('navAC');
+    const navLink4 = document.getElementById('navAD');
+    const navLink5 = document.getElementById('navAE');
+    const navLink6 = document.getElementById('navAF');
 
 
     // Calls function to pick a random number
@@ -67,7 +72,12 @@ function changeColor() {
         navHead.style.backgroundColor= '#d0e1e8c5';
         
         // Colors the links for the nav bar
-        navLinks.style.color= '#a0b4c2';
+        navLink1.style.color= '#a0b4c2';
+        navLink2.style.color= '#a0b4c2';
+        navLink3.style.color= '#a0b4c2';
+        navLink4.style.color= '#a0b4c2';
+        navLink5.style.color= '#a0b4c2';
+        navLink6.style.color= '#a0b4c2';
 
         
         // Colors the theme button
@@ -89,7 +99,14 @@ function changeColor() {
         navHead.style.backgroundColor= '#e8f0d5d3';
         
         // Colors the links for the nav bar
-        navLinks.style.color= '#7a9c57c0';
+        navLink1.style.color= '#7a9c57c0';
+        navLink2.style.color= '#7a9c57c0';
+        navLink3.style.color= '#7a9c57c0';
+        navLink4.style.color= '#7a9c57c0';
+        navLink5.style.color= '#7a9c57c0';
+        navLink6.style.color= '#7a9c57c0';
+
+        
 
         
         // Colors the theme button
@@ -111,7 +128,12 @@ function changeColor() {
         navHead.style.backgroundColor= '#f5dfe3fa';
         
         // Colors the links for the nav bar
-        navLinks.style.color= '#b8acc5';
+        navLink1.style.color= '#b8acc5';
+        navLink2.style.color= '#b8acc5';
+        navLink3.style.color= '#b8acc5';
+        navLink4.style.color= '#b8acc5';
+        navLink5.style.color= '#b8acc5';
+        navLink6.style.color= '#b8acc5';
 
         
         // Colors the theme button
@@ -132,7 +154,12 @@ function changeColor() {
         navHead.style.backgroundColor= '#e2d4e0';
         
         // Colors the links for the nav bar
-        navLinks.style.color= '#7c7e9de7';
+        navLink1.style.color= '#7c7e9de7';
+        navLink2.style.color= '#7c7e9de7';
+        navLink3.style.color= '#7c7e9de7';
+        navLink4.style.color= '#7c7e9de7';
+        navLink5.style.color= '#7c7e9de7';
+        navLink6.style.color= '#7c7e9de7';
 
         
         // Colors the theme button
@@ -153,7 +180,12 @@ function changeColor() {
         navHead.style.backgroundColor= '#dde0cce5';
         
         // Colors the links for the nav bar
-        navLinks.style.color= '#91a897';
+        navLink1.style.color= '#91a897';
+        navLink2.style.color= '#91a897';
+        navLink3.style.color= '#91a897';
+        navLink4.style.color= '#91a897';
+        navLink5.style.color= '#91a897';
+        navLink6.style.color= '#91a897';
 
         
         // Colors the theme button
