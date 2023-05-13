@@ -203,6 +203,12 @@ input {
 }
 
 
+.home-content {
+    width: 58%;
+    margin: auto;
+}
+
+
 /* Aligns Number Game content in the center */
 .Randopara-buttons {
     text-align: center;
