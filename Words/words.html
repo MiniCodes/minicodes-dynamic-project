@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Words Game!</title>
+        <title>To-Do List!</title>
 
         <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@400;500;600;700&family=Handlee&family=Homemade+Apple&family=Kalam&family=Marck+Script&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="words.css">
@@ -13,7 +13,7 @@
                 <nav>
                     <ul>
                         <li><a href="../index.html">Home</a></li>
-                        <li><a href="words.html">Words Game!</a></li>
+                        <li><a href="words.html">Daily To-Do List!</a></li>
                         <li><a href="../Calculators/calculators.html">Calculators!</a></li>
                         <!--<li class="dropdown">  Math Projects
                             <a href="#" class="dropbtn">test</a>
@@ -40,6 +40,36 @@
             </div>
         </header>
 
-        <h1>Words Game!</h1>
+        <h1>Welcome to the Daily To-Do List!</h1>
+        
+
+        <p class="list-info">
+            This is a simple daily To-Do list, type in your task and 
+            hit enter to begin writing your list. <br> You can 
+            <i><b>left click</b></i> on the task to cross out 
+            or complete a task & <i><b>right click</b></i> 
+            on the task to remove it.
+        </p>
+
+        <br><br>
+
+        <div class="tasklist">
+            <div class="list-content">
+                <h3>Tasks</h3>
+
+                <br>
+
+                <form id="form">
+                    <input type="text" name="input" 
+                        id="listInput" 
+                        placeholder="Enter your Task :3" 
+                        autocomplete="off"
+                    >
+                    <ul class="tasks" id="tasks"></ul>
+                </form>
+            </div>
+        </div>
+
+        <script src="words.js"></script>
     </body>
 </html>

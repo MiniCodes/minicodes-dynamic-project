@@ -123,3 +123,76 @@ input {
     font-size: 14px;
     color: #79816a;
 }
+
+
+
+/* Positions Tasklist Project & text to the center */
+.tasklist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+
+    text-align: center;
+}
+
+/* Styles Task project content & positions it */
+.list-content {
+    grid-column-start: 2;
+  
+    background: #839fb183;
+    border-radius: 14px;
+    padding: 10px;
+    padding-bottom: 14px;
+}
+
+/* Styles the title for Task List */
+.list-content h3 {
+    font-size: 37.5px;
+    margin: 10px;
+
+    color: #687a86;
+}
+
+/* Styles the Task input */
+#form input {
+    border-style: hidden;
+    border-radius: 6px;
+    padding: 2px;
+
+    background-color: #f6f9fa;
+
+    font-size: 18px;
+}
+
+/* Styles the task list & positions it */
+.tasks {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Styles tasks on Task list */
+.tasks li {
+    margin: auto;
+    margin-top: 12px;
+    width: 70%;
+
+    background: #e8e9dfdc;
+    color: #687a86;
+
+    border-radius: 8px;
+    padding: 4px;
+
+    font-size: 17px;
+    font-family: 'Handlee', cursive;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* Styles completed Tasks */
+.tasks li.completed {
+    text-decoration: line-through;
+
+    background:  #eff0e7;
+    color: #839fb183;
+}
